@@ -5,7 +5,7 @@ pipeline {
        jdk   '' 
     }
     stages {
-        stage('build_CaseStudy) {
+        stage('build_CaseStudy') {
           steps {
               echo "Building for Case Study.....!!"
               sh 'mvn compile'
